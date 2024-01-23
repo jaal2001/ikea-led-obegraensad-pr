@@ -4,7 +4,7 @@
 # - copy this script into the same folder as your platformio.ini
 # - set the following for your project in platformio.ini:
 #
-# extra_scripts = platformio_upload.py
+# extra_scripts = upload.py
 # upload_protocol = custom
 # upload_url = <your upload URL>
 #
