@@ -122,6 +122,10 @@ Connect them like this and remember to set them in `include/constants.h` accordi
 
 <img src="https://user-images.githubusercontent.com/86414213/205999001-6213fc4f-be2f-4305-a17a-44fdc9349069.jpg" width="60%" />
 
+### Alternate Button Wiring
+
+Thanks to [RBEGamer](https://github.com/RBEGamer) who is showing in this [issue](https://github.com/ph1p/ikea-led-obegraensad/issues/79) how to use the original button wiring. With this solution you won't need the "BUTTON one end" and "BUTTON other end" soldering from the table above.
+
 # Development
 
 - `src` contains the arduino code.
@@ -252,11 +256,12 @@ GET http://your-server/removemessage?id=1
 
 This example will remove the message with the identifier 1 from the LED display.
 
-# Ideas
+# Troubleshooting
 
-- [ ] gifs
-- [ ] animation upload
-- [ ] use `<canvas />`
+## Flickering panel
+
+- Check all soldering points, especially VCC
+- Check if the board gets enough power
 
 ## Credits
 
